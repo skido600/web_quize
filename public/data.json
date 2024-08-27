@@ -1,0 +1,516 @@
+{
+  "quiz": [
+    {
+      "question": "Which symbol is used to indicate an array in JavaScript?",
+      "options": ["[]", "{}", "||", "()"],
+      "correct": "[]",
+      "programming": "JavaScript"
+    },
+    {
+      "question": "How do you add a comment in JavaScript?",
+      "options": [
+        "// This is a comment",
+        "<!-- This is a comment -->",
+        "** This is a comment",
+        "# This is a comment"
+      ],
+      "correct": "// This is a comment",
+      "programming": "JavaScript"
+    },
+    {
+      "question": "Which property is used to change the left margin of an element?",
+      "options": ["margin-left", "padding-left", "margin-right", "indent-left"],
+      "correct": "margin-left",
+      "programming": "CSS"
+    },
+    {
+      "question": "Which JavaScript function is used to parse a JSON string into an object?",
+      "options": [
+        "JSON.parse()",
+        "JSON.stringify()",
+        "JSON.convert()",
+        "JSON.toObject()"
+      ],
+      "correct": "JSON.parse()",
+      "programming": "JavaScript"
+    },
+    {
+      "question": "How do you make a div element take up the entire height of the viewport in CSS?",
+      "options": [
+        "height: 100vh",
+        "height: 100%",
+        "min-height: 100%",
+        "min-height: 100vh"
+      ],
+      "correct": "height: 100vh",
+      "programming": "CSS"
+    },
+    {
+      "question": "Which method is used to find the length of a string in JavaScript?",
+      "options": [".length", ".size", ".count", ".len"],
+      "correct": ".length",
+      "programming": "JavaScript"
+    },
+    {
+      "question": "How do you create a function in JavaScript?",
+      "options": [
+        "function myFunction()",
+        "function = myFunction()",
+        "function: myFunction()",
+        "function => myFunction()"
+      ],
+      "correct": "function myFunction()",
+      "programming": "JavaScript"
+    },
+    {
+      "question": "Which CSS property is used to specify the stack order of elements?",
+      "options": ["z-index", "stack-order", "position", "display-order"],
+      "correct": "z-index",
+      "programming": "CSS"
+    },
+    {
+      "question": "Which CSS property is used to create space between rows and columns in a grid layout?",
+      "options": ["grid-gap", "gap", "grid-spacing", "grid-padding"],
+      "correct": "gap",
+      "programming": "CSS"
+    },
+    {
+      "question": "How do you add a background image to a web page using CSS?",
+      "options": [
+        "background-image: url('image.jpg')",
+        "background: image('image.jpg')",
+        "bg-image: url('image.jpg')",
+        "background-image: src('image.jpg')"
+      ],
+      "correct": "background-image: url('image.jpg')",
+      "programming": "CSS"
+    },
+    {
+      "question": "How do you create a new promise in JavaScript?",
+      "options": [
+        "new Promise()",
+        "Promise.create()",
+        "Promise.new()",
+        "new AsyncPromise()"
+      ],
+      "correct": "new Promise()",
+      "programming": "JavaScript"
+    },
+    {
+      "question": "How do you hide an element in CSS?",
+      "options": [
+        "display: none",
+        "visibility: hidden",
+        "opacity: 0",
+        "All of the above"
+      ],
+      "correct": "All of the above",
+      "programming": "CSS"
+    },
+    {
+      "question": "How do you check if two values are equal, considering type in JavaScript?",
+      "options": ["===", "==", "=", "equals"],
+      "correct": "===",
+      "programming": "JavaScript"
+    },
+    {
+      "question": "What does DOM stand for?",
+      "options": [
+        "Document Object Model",
+        "Data Object Model",
+        "Document Order Model",
+        "Data Order Model"
+      ],
+      "correct": "Document Object Model",
+      "programming": "JavaScript"
+    },
+    {
+      "question": "How do you create a border with rounded corners in CSS?",
+      "options": [
+        "border-radius",
+        "border-curve",
+        "corner-radius",
+        "border-shape"
+      ],
+      "correct": "border-radius",
+      "programming": "CSS"
+    },
+    {
+      "question": "How do you create a functional component in React?",
+      "options": [
+        "function MyComponent() {}",
+        "const MyComponent = () => {}",
+        "class MyComponent extends React.Component {}",
+        "Both a and b"
+      ],
+      "correct": "Both a and b",
+      "programming": "React"
+    },
+    {
+      "question": "What hook is used to manage state in a functional component in React?",
+      "options": ["useState", "useEffect", "useReducer", "useContext"],
+      "correct": "useState",
+      "programming": "React"
+    },
+    {
+      "question": "How do you pass props to a React component?",
+      "options": [
+        "<MyComponent propName={value} />",
+        "<MyComponent value />",
+        "<MyComponent propName=value />",
+        "<MyComponent (propName=value) />"
+      ],
+      "correct": "<MyComponent propName={value} />",
+      "programming": "React"
+    },
+    {
+      "question": "How do you handle form submission in React?",
+      "options": [
+        "onSubmit={handleSubmit}",
+        "onClick={handleSubmit}",
+        "onChange={handleSubmit}",
+        "onInput={handleSubmit}"
+      ],
+      "correct": "onSubmit={handleSubmit}",
+      "programming": "React"
+    },
+    {
+      "question": "How do you create a server in Node.js?",
+      "options": [
+        "const http = require('http'); http.createServer();",
+        "const server = new Server();",
+        "const express = require('express'); express();",
+        "const server = require('node-server');"
+      ],
+      "correct": "const http = require('http'); http.createServer();",
+      "programming": "Node.js"
+    },
+    {
+      "question": "Which Node.js module is used for file system operations?",
+      "options": ["fs", "http", "path", "os"],
+      "correct": "fs",
+      "programming": "Node.js"
+    },
+    {
+      "question": "How do you include a module in Node.js?",
+      "options": [
+        "const module = require('module')",
+        "import module from 'module'",
+        "include module",
+        "require('module')"
+      ],
+      "correct": "const module = require('module')",
+      "programming": "Node.js"
+    },
+    {
+      "question": "What is the purpose of middleware in Express.js?",
+      "options": [
+        "To handle HTTP requests",
+        "To process data before reaching routes",
+        "To manage routing",
+        "To create server instances"
+      ],
+      "correct": "To process data before reaching routes",
+      "programming": "Node.js"
+    },
+    {
+      "question": "Which method is used to start an Express server?",
+      "options": [
+        "app.listen()",
+        "server.start()",
+        "express.run()",
+        "app.begin()"
+      ],
+      "correct": "app.listen()",
+      "programming": "Node.js"
+    },
+    {
+      "question": "How do you define a route in Express.js?",
+      "options": [
+        "app.get('/path', callback)",
+        "router('/path', callback)",
+        "server.route('/path', callback)",
+        "app.route('/path', callback)"
+      ],
+      "correct": "app.get('/path', callback)",
+      "programming": "Node.js"
+    },
+    {
+      "question": "Which method is used to read data from a file in Node.js?",
+      "options": ["fs.readFile()", "fs.load()", "fs.get()", "fs.open()"],
+      "correct": "fs.readFile()",
+      "programming": "Node.js"
+    },
+    {
+      "question": "How do you update the state in a React class component?",
+      "options": [
+        "this.setState()",
+        "this.updateState()",
+        "this.changeState()",
+        "this.modifyState()"
+      ],
+      "correct": "this.setState()",
+      "programming": "React"
+    },
+    {
+      "question": "What method is used to remove an item from an array in JavaScript?",
+      "options": [
+        "array.splice()",
+        "array.remove()",
+        "array.delete()",
+        "array.pop()"
+      ],
+      "correct": "array.splice()",
+      "programming": "JavaScript"
+    },
+    {
+      "question": "How do you apply a CSS class to an HTML element?",
+      "options": [
+        "<element class='className'>",
+        "<element class='className'>",
+        "<element className='className'>",
+        "<element style='className'>"
+      ],
+      "correct": "<element class='className'>",
+      "programming": "CSS"
+    },
+    {
+      "question": "What is the purpose of `useEffect` hook in React?",
+      "options": [
+        "To handle side effects",
+        "To manage state",
+        "To handle routing",
+        "To perform animations"
+      ],
+      "correct": "To handle side effects",
+      "programming": "React"
+    },
+    {
+      "question": "What is the output of `console.log(typeof null)` in JavaScript?",
+      "options": ["'object'", "'null'", "'undefined'", "'boolean'"],
+      "correct": "'object'",
+      "programming": "JavaScript"
+    },
+    {
+      "question": "What will be the result of `[] == ![]` in JavaScript?",
+      "options": ["true", "false", "undefined", "null"],
+      "correct": "true",
+      "programming": "JavaScript"
+    },
+    {
+      "question": "Which method can be used to deep clone an object in JavaScript?",
+      "options": [
+        "JSON.parse(JSON.stringify(obj))",
+        "Object.assign({}, obj)",
+        "obj.clone()",
+        "structuredClone(obj)"
+      ],
+      "correct": "JSON.parse(JSON.stringify(obj))",
+      "programming": "JavaScript"
+    },
+    {
+      "question": "In CSS Grid, how do you create a layout with equal-width columns?",
+      "options": [
+        "grid-template-columns: repeat(auto-fit, minmax(0, 1fr))",
+        "grid-template-columns: repeat(3, 1fr)",
+        "grid-template-columns: auto",
+        "grid-template-columns: 1fr 1fr 1fr"
+      ],
+      "correct": "grid-template-columns: repeat(3, 1fr)",
+      "programming": "CSS"
+    },
+    {
+      "question": "How do you ensure that a CSS rule applies only to the last child element of its parent?",
+      "options": [
+        ":last-child",
+        ":nth-last-child(1)",
+        ":last-of-type",
+        ":nth-last-of-type(1)"
+      ],
+      "correct": ":last-child",
+      "programming": "CSS"
+    },
+    {
+      "question": "How can you ensure a CSS rule only applies if an element has focus?",
+      "options": [
+        "element:focus",
+        "element:active",
+        "element:hover",
+        "element:focus-within"
+      ],
+      "correct": "element:focus",
+      "programming": "CSS"
+    },
+    {
+      "question": "In React, how do you pass a function as a prop to a child component?",
+      "options": [
+        "<ChildComponent onClick={handleClick} />",
+        "<ChildComponent onClick={() => handleClick()} />",
+        "<ChildComponent onClick='handleClick' />",
+        "<ChildComponent onClick={handleClick()} />"
+      ],
+      "correct": "<ChildComponent onClick={handleClick} />",
+      "programming": "React"
+    },
+    {
+      "question": "What will `React.StrictMode` do in a React application?",
+      "options": [
+        "Highlight potential problems in an application",
+        "Render components faster",
+        "Add styling to components",
+        "Wrap components with error boundaries"
+      ],
+      "correct": "Highlight potential problems in an application",
+      "programming": "React"
+    },
+    {
+      "question": "How does the `useCallback` hook improve performance in React?",
+      "options": [
+        "By memoizing the function instance",
+        "By caching the function result",
+        "By preventing re-renders",
+        "By optimizing component lifecycle methods"
+      ],
+      "correct": "By memoizing the function instance",
+      "programming": "React"
+    },
+    {
+      "question": "In Node.js, what is the purpose of the `cluster` module?",
+      "options": [
+        "To create multiple child processes",
+        "To handle HTTP requests",
+        "To manage file system operations",
+        "To perform asynchronous operations"
+      ],
+      "correct": "To create multiple child processes",
+      "programming": "Node.js"
+    },
+    {
+      "question": "How do you handle asynchronous operations in Node.js using `async/await`?",
+      "options": [
+        "async function myFunction() { await doSomething(); }",
+        "function myFunction() { await doSomething(); }",
+        "async myFunction() { await doSomething(); }",
+        "function myFunction() { async doSomething(); }"
+      ],
+      "correct": "async function myFunction() { await doSomething(); }",
+      "programming": "Node.js"
+    },
+    {
+      "question": "What is the purpose of the `process.nextTick()` method in Node.js?",
+      "options": [
+        "To execute a function on the next iteration of the event loop",
+        "To schedule a function to run immediately",
+        "To handle file I/O operations",
+        "To process HTTP requests"
+      ],
+      "correct": "To execute a function on the next iteration of the event loop",
+      "programming": "Node.js"
+    },
+    {
+      "question": "How do you prevent a function from executing more than once per specified time interval in JavaScript?",
+      "options": ["Debouncing", "Throttling", "Memoization", "Caching"],
+      "correct": "Throttling",
+      "programming": "JavaScript"
+    },
+    {
+      "question": "Which of the following is used to check for deep equality between objects in JavaScript?",
+      "options": [
+        "Lodash's _.isEqual()",
+        "JSON.stringify() === JSON.stringify()",
+        "Object.is()",
+        "deepEqual()"
+      ],
+      "correct": "Lodash's _.isEqual()",
+      "programming": "JavaScript"
+    },
+    {
+      "question": "In React, how do you handle errors within a component tree?",
+      "options": [
+        "Use `ErrorBoundary` component",
+        "Use `try-catch` blocks",
+        "Use `componentDidCatch` lifecycle method",
+        "Use `useError` hook"
+      ],
+      "correct": "Use `ErrorBoundary` component",
+      "programming": "React"
+    },
+    {
+      "question": "What does the `useMemo` hook do in React?",
+      "options": [
+        "Memoizes the result of a computation",
+        "Caches the component's props",
+        "Stores the previous state value",
+        "Optimizes the rendering of components"
+      ],
+      "correct": "Memoizes the result of a computation",
+      "programming": "React"
+    },
+    {
+      "question": "What is the difference between `process.env.NODE_ENV` and `process.env.DEBUG` in a Node.js application?",
+      "options": [
+        "`NODE_ENV` is for environment configuration, `DEBUG` is for logging levels",
+        "`NODE_ENV` is for debugging, `DEBUG` is for environment configuration",
+        "`NODE_ENV` is for server status, `DEBUG` is for application status",
+        "`NODE_ENV` is for application status, `DEBUG` is for server status"
+      ],
+      "correct": "`NODE_ENV` is for environment configuration, `DEBUG` is for logging levels",
+      "programming": "Node.js"
+    },
+    {
+      "question": "How do you handle a promise rejection in Node.js?",
+      "options": [
+        "Use `.catch()` method",
+        "Use `try-catch` blocks",
+        "Use `.finally()` method",
+        "Use `.resolve()` method"
+      ],
+      "correct": "Use `.catch()` method",
+      "programming": "Node.js"
+    },
+    {
+      "question": "In Node.js, what does `fs.promises` provide?",
+      "options": [
+        "Promise-based file system operations",
+        "Callbacks for file system operations",
+        "Synchronous file system operations",
+        "File system monitoring capabilities"
+      ],
+      "correct": "Promise-based file system operations",
+      "programming": "Node.js"
+    },
+    {
+      "question": "Which CSS selector is used to select an element that is a child of a specific parent?",
+      "options": [
+        "parent > child",
+        "parent + child",
+        "parent ~ child",
+        "parent :child"
+      ],
+      "correct": "parent > child",
+      "programming": "CSS"
+    },
+    {
+      "question": "How do you make an HTML5 video autoplay using attributes?",
+      "options": [
+        "<video src='video.mp4' autoplay></video>",
+        "<video src='video.mp4' autoPlay></video>",
+        "<video src='video.mp4' play></video>",
+        "<video src='video.mp4' start></video>"
+      ],
+      "correct": "<video src='video.mp4' autoplay></video>",
+      "programming": "HTML"
+    },
+    {
+      "question": "In CSS, what does the `calc()` function do?",
+      "options": [
+        "Performs calculations to determine CSS property values",
+        "Calculates element positions",
+        "Counts child elements",
+        "Calculates font sizes"
+      ],
+      "correct": "Performs calculations to determine CSS property values",
+      "programming": "CSS"
+    }
+  ]
+}
